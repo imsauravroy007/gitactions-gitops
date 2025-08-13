@@ -85,5 +85,5 @@ jobs:
       with:
         context: .
         push: true
-        tags: adijaiswal/bankapp:latest
+        tags: rsaurav811/eks:latest
         file: ./Dockerfile
