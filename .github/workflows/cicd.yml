@@ -3,11 +3,11 @@ name: CICD Pipeline
 on:
   push:
     branches: [ "main" ]
-
+    
 jobs:
   compile:
     runs-on: self-hosted
-
+    environment: dev 
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK 17
